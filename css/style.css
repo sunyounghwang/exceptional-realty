@@ -7,19 +7,11 @@ body {
 
 #logo {
   line-height: .5;
-  color: #A93226;
+  color: #121338;
 }
 
 #logo h2 {
   font-style: italic;
-}
-
-#map {
-  margin-left: .75em;
-}
-
-img, video {
-  border: solid;
 }
 
 figcaption {
@@ -47,9 +39,70 @@ footer {
   height: 30px;
 }
 
+/* Media */
+
+img, video, audio {
+  max-width: 100%;
+}
+
 /* Layout */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .wrapper {
   width: 960px;
   margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #ccc;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+/* Sections */
+
+header#index {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #A93226;
+  z-index: 1;
+}
+
+#featured-property, #details {
+  margin-bottom: 20px;
+  padding: 20px;
 }
