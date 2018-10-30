@@ -14,9 +14,12 @@ body {
   font-style: italic;
 }
 
+#map {
+  margin-left: .75em;
+}
+
 img, video {
-  padding:1px;
-  border:1px solid #021a40
+  border: solid;
 }
 
 figcaption {
