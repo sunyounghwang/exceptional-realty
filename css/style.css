@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/*/// GLOBAL ///*/
+
 body {
   background: #FEF9E7;
   font-family: 'Roboto', sans-serif;
 }
+
+figcaption {
+  font-size: .75em;
+}
+
+/*/// LOGO ///*/
 
 #logo {
   line-height: .5;
@@ -14,16 +22,10 @@ body {
   font-style: italic;
 }
 
-figcaption {
-  font-size: .75em;
-}
+/*/// NAVBAR ///*/
 
-footer {
-  line-height: 3;
-  font-size: .75em;
-}
 
-/* Social */
+/*/// SOCIAL ///*/
 
 #social {
   position: fixed;
@@ -39,19 +41,31 @@ footer {
   height: 30px;
 }
 
-/* Media */
+/*/// MEDIA ///*/
 
-img, video, audio {
+img, video, audio, iframe, table, form {
+  width: 100%;
   max-width: 100%;
 }
 
-/* Layout */
+/*/// FIXES ///*/
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/*/// LAYOUT ///*/
 
 .wrapper {
   width: 960px;
@@ -74,15 +88,6 @@ img, video, audio {
   background: #ccc;
 }
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
 [class*="col-"] {
   margin-left: 2%;
 }
@@ -91,18 +96,13 @@ img, video, audio {
   margin-left: 0%;
 }
 
-/* Sections */
+/*/// SECTIONS ///*/
 
-header#index {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #A93226;
-  z-index: 1;
-}
+/*/// DETAILS ///*/
 
-#featured-property, #details {
-  margin-bottom: 20px;
-  padding: 20px;
+/*/// FOOTER ///*/
+
+footer {
+  line-height: 3;
+  font-size: .75em;
 }
