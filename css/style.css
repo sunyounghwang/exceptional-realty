@@ -128,7 +128,8 @@ figcaption {
   display: block;
   width: 40px;
   height: 30px;
-  color: white;
+  color: yellow;
+  text: bold;
 }
 
 /*/// MEDIA ///*/
@@ -153,6 +154,10 @@ img, video, audio, iframe, table, form {
   visibility: hidden;
   height: 0;
   line-height: 0;
+}
+
+.clear {
+  clear: both;
 }
 
 /*/// LAYOUT ///*/
