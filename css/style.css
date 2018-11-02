@@ -115,8 +115,26 @@ input[type="submit"]:hover {
   margin: 0;
 }
 
+#logo h1 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  background: url(../images/exceptional-logo.png) no-repeat;
+  background-size: 100% 100%;
+}
+
 #logo h2 {
-  font-style: italic;
+  display: inline-block;
+  font: 2.5em;
+  margin: 0;
+  position: relative;
+  top: -9px;
+  left: 5px;
+  color: #303;
 }
 
 /*/// NAVBAR ///*/
