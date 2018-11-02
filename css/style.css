@@ -240,7 +240,7 @@ img, video, audio, iframe, table, form {
 }
 
 .clearfix:after {
-  content: "";
+  content: ".";
   display: block;
   clear: both;
   visibility: hidden;
