@@ -18,7 +18,7 @@ li {
   margin-left: 20px;
 }
 
-p {
+p, address {
   font-size: 1em;
   line-height: 1.5em;
 }
@@ -31,6 +31,27 @@ figcaption {
   font-size: .75em;
   color: #777;
   text-align: right;
+}
+
+table {
+  margin: 0 0 20px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+th, td {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background: #555;
+  color: white;
 }
 
 .shadow {
