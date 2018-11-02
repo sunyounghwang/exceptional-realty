@@ -97,7 +97,6 @@ img, video, audio, iframe, table, form {
 
 section {
   margin-bottom: 20px;
-  background: white;
 }
 
 /*/// DETAILS ///*/
@@ -118,6 +117,8 @@ section {
 /*/// FOOTER ///*/
 
 footer {
-  line-height: 3;
+  text-align: center;
   font-size: .75em;
+  padding: 10px;
+  border-top: 1px solid;
 }
