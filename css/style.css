@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
 /*/// GLOBAL ///*/
 
@@ -112,8 +114,7 @@ input[type="submit"]:hover {
 /*/// LOGO ///*/
 
 #logo {
-  padding: 84px 0 0;
-  margin: 0;
+  padding: 74px 0 0;
 }
 
 #logo h1 {
@@ -192,8 +193,8 @@ input[type="submit"]:hover {
 
 #social {
   position: fixed;
-  top: 200px;
-  right: 40px;
+  top: 163px;
+  right: 20px;
   width: 40px;
   z-index: 2;
 }
@@ -201,7 +202,7 @@ input[type="submit"]:hover {
 #social a {
   display: block;
   width: 40px;
-  height: 30px;
+  height: 40px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
