@@ -25,6 +25,10 @@ figcaption {
   box-shadow: 0 3px 10px #333;
 }
 
+textarea {
+  width: 100%
+}
+
 /*/// BACKGROUNDS ///*/
 
 .black-wood {
