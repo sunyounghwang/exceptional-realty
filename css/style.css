@@ -189,6 +189,10 @@ input[type="submit"]:hover {
   color: white;
 }
 
+#navbar nav a.menu-icon {
+  display: none;
+}
+
 /*/// SOCIAL ///*/
 
 #social {
