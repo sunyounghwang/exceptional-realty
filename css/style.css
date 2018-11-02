@@ -93,6 +93,12 @@ img, video, audio, iframe, table, form {
   margin-left: 0%;
 }
 
+/*/// HEADER ///*/
+
+header {
+  margin: 0 0 30px;
+}
+
 /*/// SECTIONS ///*/
 
 section {
